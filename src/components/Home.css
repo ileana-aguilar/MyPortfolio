@@ -1,0 +1,193 @@
+.home-section {
+  height: 97vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  width: 98.5%;
+  background-color: var(--purple);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.home-section h1 {
+  margin-bottom: 20px;
+  width: 200%;
+}
+
+.home-section p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+
+
+.profile-pic {
+  border-radius: 5%;
+  width: 200px;
+  height: 280px;
+  margin-bottom: 20px;
+}
+
+.scroll{
+  position: absolute;
+  bottom: 33px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2rem;
+  color: var(--dark-navy); 
+}
+
+.social-icons-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  left: 2%;
+  bottom: 8em;
+  position: fixed;
+  z-index: 2000;
+}
+
+.social-icons {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  position: fixed;
+  z-index: 1000;
+}
+
+.scroll ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90px;
+  margin: 0px auto;
+  background-color: var(--dark-navy);
+}
+
+.social-icons-div.section-visible .social-icons svg,
+.social-icons-div.section-visible .social-icons svg path {
+  fill: aliceblue;
+}
+
+.social-icons svg:hover {
+  transform: translate(0px, -8px);
+  transition: fill 0.7s ease-in-out, transform 0.7s ease-in-out;
+  
+
+}
+
+
+@media (max-width: 430px) {
+  .github-icon {
+    height: 23px;
+    width: 20px;
+  }
+    
+  .linkedin-icon {
+    height: 25px;
+    width: 15px;
+  }
+    
+  .mail-icon {
+    height: 27px;
+    width: 18px;
+  }
+
+  .social-icons::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 32px;
+    margin: 0px auto;
+    background-color: var(--dark-navy);
+  }
+  .home-section p {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+  }
+
+  h1{    
+    font-size: 6vw;
+  }
+  .learn-more-button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.7em 1.3em;
+    font-size: .8em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    color: var(--dark-navy);
+    border-color: var(--dark-navy);
+  }
+  .learn-more-button:hover {
+    background-color: var(--dark-navy);
+    cursor: pointer;
+    transition: border-color 0.25s;
+    color: var( --purple);
+    border-color: var(--purple);
+  }
+  .learn-more-button:focus,
+  .learn-more-button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+
+  .social-icons {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+    position: fixed;
+    z-index: 1000;
+}
+}
+
+
+@media (min-width: 431px) {
+.learn-more-button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  color: var( --dark-navy);
+  border-color: var(--dark-navy);
+}
+.learn-more-button:hover {
+  background-color: var(--dark-navy);
+  cursor: pointer;
+  transition: border-color 0.25s;
+  color: var( --purple);
+  border-color: var(--purple);
+}
+.learn-more-button:focus,
+.learn-more-button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+}

@@ -1,0 +1,118 @@
+.work-section {
+    padding-top: 4em;
+    background-color: var(--dark-navy);
+    color: #f0f8ff;
+    
+    z-index: 2000; 
+    position: relative;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+
+  .ListOfProjects{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: baseline;
+    margin-top: 20px;
+    
+  }
+
+  .more-projects{
+    background-color: var(--dark-navy);
+    cursor: pointer;
+    
+    color: var( --purple);
+    border-color: var(--purple);
+    margin: 78px;
+  }
+
+  .more-projects a {
+
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    color: var( --purple);
+    border-color: var(--purple);
+  }
+
+  
+
+
+  .more-projects a:hover {
+    background-color: var(--purple);
+    cursor: pointer;
+    transition: border-color 0.25s;
+    color: var( --dark-navy);
+    border-color: var(--purple);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .work-section {
+    position: relative;
+    overflow: hidden;
+    
+  }
+  .work-title{
+    padding-top:2em;
+  }
+  
+  .marquee-container {
+    position: relative;
+    overflow: hidden; 
+    width: 100%;
+    height: 3em; 
+    display: flex;
+    align-items: center;
+    margin: 6em 0em;
+    
+  }
+  
+  .marquee {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  .marquee-content {
+    display: flex;
+    animation: marquee-animation 150s linear infinite;
+  }
+  
+  .marquee h1 {
+    display: inline-block;
+    margin: 0;
+    padding: 0 2em;
+    font-size: 3em; 
+    color: aliceblue; 
+    font-weight: 400;
+  }
+  
+  @keyframes marquee-animation {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+
+
+  @media (max-width: 415px) {
+.more-projects {
+    background-color: var(--dark-navy);
+    cursor: pointer;
+    color: var(--purple);
+    border-color: var(--purple);
+    margin: 78px 0px;
+}
+  }

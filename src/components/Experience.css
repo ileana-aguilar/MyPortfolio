@@ -1,0 +1,456 @@
+.experience-section {
+    background-color: var(--dark-navy);
+    color: aliceblue;
+    width: 98.49%;
+    z-index: 2000; 
+    position: relative;
+    padding-top: 10em;
+  }
+  
+  h3 {
+    margin: 20px 0;
+  }
+  
+  .experience {
+    border-left: 3px solid var(--purple);
+    padding: 0 30px;
+    margin-left: 402px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  
+  @media (max-width: 767px) {
+    .experience {
+      margin-left: 0;
+      padding-right: 0;
+    }
+  }
+  
+  .item {
+    position: relative;
+    margin-bottom: 40px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  
+  .item::before {
+    content: "";
+    position: absolute;
+    left: -43px;
+    top: 0;
+    width: 22px;
+    height: 22px;
+    background-color: var(--dark-navy);
+    border: 3px solid var(--purple);
+    border-radius: 50%;
+  }
+  
+  .item::after {
+    content: "";
+    position: absolute;
+    left: -37px;
+    top: 6px;
+    width: 10px;
+    height: 10px;
+    background-color: var(--purple);
+    border-radius: 50%;
+  }
+  
+  .company-name {
+    color: var(--gray);
+  }
+  
+  .location {
+    position: absolute;
+    right: 0;
+    top: 2px;
+  }
+  
+  .location .fa {
+    margin-right: 8px;
+  }
+  
+  .job-info {
+    position: absolute;
+    left: -185px;
+    top: 0;
+  }
+  
+  .job-info .title {
+    color: var(--purple);
+  }
+  
+  @media (max-width: 767px) {
+    .job-info {
+      position: static;
+      margin-bottom: 1rem;
+    }
+  }
+  
+  .fa-ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: var(--gray);
+  }
+  
+  .fa-li {
+    position: relative;
+    left: -2em;
+  }
+  
+  .experience .item::before {
+    content: "";
+    position: absolute;
+    left: -43px;
+    top: 0;
+    width: 20px;
+    height: 19px;
+    border-radius: 50%;
+    background: #000000;
+    border: 3px solid var(--purple);
+  }
+  
+  .experience .item::after {
+    content: "";
+    position: absolute;
+    left: -35px;
+    top: 8px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--purple);
+  }
+  
+  .experience .company-name {
+    color: aliceblue;
+  }
+  
+  .fa-map-marker:before {
+    content: "\f041";
+  }
+  
+  .experience .job-info {
+    position: absolute;
+    left: -286px;
+    top: 0;
+    width: 14em;
+  }
+  
+  .experience .job-info .title {
+    color: var(--purple);
+  }
+  
+  .experience .item {
+    position: relative;
+    margin-bottom: 40px;
+    max-width: 30em;
+    text-align: left;
+  }
+  
+  .experience {
+    border-left: 3px solid var(--purple);
+    padding: 0 30px;
+    margin-left: 373px;
+  }
+  
+  .date {
+    text-align: left;
+    color: var(--gray);
+  }
+  
+  .skills-div {
+    margin-left: -40px;
+  }
+  
+  .skills {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  
+  .skills li {
+    list-style: none;
+    background-color: rgb(72, 7, 72);
+    color: var(--purple);
+    padding: 5px 11px;
+    border-radius: 19px;
+    font-size: 13px;
+  }
+  
+  .experience-heading {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 0px 40px;
+    width: 100%;
+    font-size: clamp(26px, 5vw, 32px);
+    white-space: nowrap;
+    justify-content: center;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  
+  .experience-heading::after {
+    content: "";
+    display: block;
+    position: relative;
+    top: 3px;
+    width: 300px;
+    height: 1px;
+    margin-left: 20px;
+    background-color: var(--gray);
+  }
+  
+  .experience0 {
+    display: flex;
+    min-width: 40em;
+    margin: auto;
+    max-width: 60em;
+  }
+  
+  .item:hover {
+    transform: scale(1.01);
+    transition: transform 0.5s;
+  }
+  
+  @media (max-width: 768px) {
+    .experience .job-info {
+      position: absolute;
+      left: -183px;
+      top: 0;
+      width: 9em;
+    }
+  
+    .experience {
+      border-left: 3px solid var(--purple);
+      padding: 0 30px;
+      margin-left: 134px;
+    }
+  
+    .experience0 {
+      display: flex;
+      margin: auto;
+      max-width: 28em;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .experience .job-info {
+      position: absolute;
+      left: -183px;
+      top: 0;
+      width: 8em;
+    }
+  
+    .experience {
+      border-left: 3px solid var(--purple);
+      padding: 0 30px;
+      margin-left: 156px;
+    }
+  
+    .experience0 {
+      display: flex;
+      margin: auto;
+      max-width: 28em;
+    }
+  
+    .experience .item {
+      position: relative;
+      margin-bottom: 40px;
+      max-width: 24em;
+      text-align: left;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .experience .item {
+      position: relative;
+      margin-bottom: 40px;
+      max-width: 21em;
+      text-align: left;
+    }
+  }
+  
+  @media (max-width: 555px) {
+    .experience .job-info {
+      position: absolute;
+      left: -140px;
+      top: 0;
+      width: 4em;
+    }
+  
+    .experience {
+      border-left: 3px solid var(--purple);
+      padding: 0 30px;
+      margin-left: 116px;
+    }
+  
+    .experience0 {
+      display: flex;
+      margin: auto;
+      max-width: 28em;
+    }
+  
+    .experience .item {
+      position: relative;
+      margin-bottom: 40px;
+      max-width: 18em;
+      text-align: left;
+    }
+  }
+
+  @media (max-width: 415px) {
+    .experience .job-info {
+      position: absolute;
+      left: -140px;
+      top: 0;
+      width: 4em;
+    }
+  
+    .experience {
+      border-left: 3px solid var(--purple);
+      padding: 0 30px;
+      margin-left: 116px;
+    }
+  
+    .experience0 {
+      display: flex;
+      margin: auto;
+      max-width: 28em;
+    }
+  
+    .experience .item {
+        position: relative;
+        margin-bottom: 40px;
+        max-width: 13em;
+        text-align: left;
+        font-size: 0.9em;
+    }
+
+    .skills li {
+        list-style: none;
+        background-color: rgb(72, 7, 72);
+        color: var(--purple);
+        padding: 5px 11px;
+        border-radius: 19px;
+        font-size: 10px;
+      }
+  }
+  
+  @media (max-width: 440px) {
+    .experience .job-info {
+      position: absolute;
+      left: -140px;
+      top: 0;
+      width: 4em;
+    }
+  
+    .experience {
+      border-left: 3px solid var(--purple);
+      padding: 0 30px;
+      margin-left: 116px;
+    }
+  
+    .experience0 {
+      display: flex;
+      margin: auto;
+      max-width: 28em;
+    }
+  
+    .experience .item {
+        position: relative;
+        margin-bottom: 40px;
+        max-width: 17em;
+        text-align: left;
+        font-size: 0.9em;
+    }
+
+    .skills li {
+        list-style: none;
+        background-color: rgb(72, 7, 72);
+        color: var(--purple);
+        padding: 5px 11px;
+        border-radius: 19px;
+        font-size: 10px;
+      }
+  }
+
+  @media (max-width: 390px) {
+    .experience .job-info {
+      position: absolute;
+      left: -140px;
+      top: 0;
+      width: 4em;
+    }
+  
+    .experience {
+      border-left: 3px solid var(--purple);
+      padding: 0 30px;
+      margin-left: 116px;
+    }
+  
+    .experience0 {
+      display: flex;
+      margin: auto;
+      max-width: 28em;
+    }
+  
+    .experience .item {
+        position: relative;
+        margin-bottom: 40px;
+        max-width: 12.7em;
+        text-align: left;
+        font-size: 0.9em;
+    }
+
+    .skills li {
+        list-style: none;
+        background-color: rgb(72, 7, 72);
+        color: var(--purple);
+        padding: 5px 11px;
+        border-radius: 19px;
+        font-size: 10px;
+      }
+  }
+  
+  @media (min-width: 768px) {
+    .experience-heading::before {
+      content: "";
+      display: block;
+      position: relative;
+      top: 3px;
+      width: 300px;
+      height: 1px;
+      margin-left: 20px;
+      background-color: var(--gray);
+      left: -9px;
+    }
+  }
+  
+  .fade-in {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+  }
+  .item:hover{
+    transform: scale(1.01);
+    transition: transform 0.5s;
+    /*background-color: #122746; 
+    padding: 2em; 
+    border-radius: 5px; */
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+.social-icons-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    left: 2%;
+    bottom: 8em;
+    position: fixed;
+    z-index: 2000;
+
+  }
+  
+  .social-icons {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    position: fixed;
+    z-index: 1000;
+  }
+
+  .social-icons::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0px auto;
+    background-color: var(--dark-navy);
+  }
+  
