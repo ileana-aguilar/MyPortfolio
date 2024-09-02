@@ -6,17 +6,26 @@ import TravelEaseImg from '../assets/TravelEase.png';
 import JdbcImg from '../assets/jdbc.png';
 import ContactBookImg from '../assets/contackbook.png';
 import FlashcardsImg from '../assets/flashcards.png';
+import QuizinImg from '../assets/quizin.png';
 
 const Work = () => {
 
   const projects = [
     {
-      name: "Travel Ease App",  
+      name: "Travel Ease",  
       image: TravelEaseImg,
       description: "A React-based web application designed to help users share and manage their travel itineraries. The platform includes user authentication, post creation, updates, deletion, an interactive home feed with various features for enhanced user interaction and AI generated itneraries.",
-      techstack: ["React", "JavaScript", "Node.js", "Supabase API", "Open AI API"],
+      techstack: ["React.js", "Node.js", "Supabase API", "Open AI API"],
       githuburl: "https://github.com/ileana-aguilar/TravelEaseAI",
       websiteurl: "https://travelease1.netlify.app"
+    },
+    {
+      name: "Quizin",  
+      image: QuizinImg,
+      description: "A full-stack React-based web application that allows users to generate and save custom flashcard sets. The platform includes user authentication, subscription management, and AI-powered flashcard generation, with features tailored for educational use.",
+      techstack: ["React.js", "Node.js", "Next.js", "Firebase API", "Open AI API", "Stripe API", "Clerk API", "Google Analytics"],
+      githuburl: "https://github.com/ileana-aguilar/flashcard-saas",
+      websiteurl: "https://quizin1.vercel.app"
     },
     { 
       name: "SQL and Java Integration Project",
@@ -33,7 +42,7 @@ const Work = () => {
       githuburl: "https://github.com/ileana-aguilar/contactBook",
     },
     {
-      name: "Flashcards Study App", 
+      name: "Flashcard Study App", 
       description: "A React-based web application designed to help users study and memorize information using flashcards. Users can then use to study, learn something new, or play a guessing game.",
       techstack: ["React", "JavaScript", "Node.js"],
       image: FlashcardsImg,

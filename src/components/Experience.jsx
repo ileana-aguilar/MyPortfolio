@@ -14,7 +14,7 @@ const Experience = () => {
         "Developing and launching five AI projects, participating in hackathons, and aiming to acquire over 1,000 users for each project.",
         "Collaborating with a diverse cohort and dedicating 20 hours weekly to programming and project development, enhancing teamwork and applying AI concepts in a remote, asynchronous environment."
       ],
-      skills: ["JavaScript", "React", "Html", "Css", "Node.Js", "Python" ]
+      skills: ["React.js", "Html", "Css", "Node.js", "Next.js", "Python" ]
     },
     {
       id: "codepath",
@@ -26,7 +26,7 @@ const Experience = () => {
         "Mastered full-stack development techniques, including crafting interactive frontends with React, handling complex user inputs, and establishing robust backend connections.",
         "Completed a comprehensive Capstone Project, showcasing skills in dynamic data display, state management, and creating intuitive, user-centric interfaces."
       ],
-      skills: ["JavaScript", "React", "Html", "Css", "Node.js", "APIs", "Databases" ]
+      skills: ["React.js", "Html", "Css", "Node.js", "APIs", "Databases" ]
     },
     {
       id: "bloomberg",
