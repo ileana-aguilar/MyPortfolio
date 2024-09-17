@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './About.css';  
-import MyPic from '../assets/IMG_2818 3.jpg'; 
+import MyPic from '../assets/DSC_4139_Original.jpg'; 
 
 const About = () => {
 
