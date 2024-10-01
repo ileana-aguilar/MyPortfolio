@@ -7,12 +7,12 @@ const Experience = () => {
     {
       id: "headstarter",
       company: "Headstarter",
-      title: "Software Engineer Fellow",
+      title: "Software Engineer Program",
       dates: "July 2024 - September 2024",
       location: "Remote",
       description: [
-        "Developing and launching five AI projects, participating in hackathons, and aiming to acquire over 1,000 users for each project.",
-        "Collaborating with a diverse cohort and dedicating 20 hours weekly to programming and project development, enhancing teamwork and applying AI concepts in a remote, asynchronous environment."
+        "- Developing and launching five AI projects, participating in hackathons, and aiming to acquire over 1,000 users for each project.",
+        "- Collaborating with a diverse cohort and dedicating 20 hours weekly to programming and project development, enhancing teamwork and applying AI concepts in a remote, asynchronous environment."
       ],
       skills: ["React.js", "Html", "Css", "Node.js", "Next.js", "Python" ]
     },
@@ -23,34 +23,34 @@ const Experience = () => {
       dates: "February 2024 - April 2024",
       location: "Remote",
       description: [
-        "Mastered full-stack development techniques, including crafting interactive frontends with React, handling complex user inputs, and establishing robust backend connections.",
-        "Completed a comprehensive Capstone Project, showcasing skills in dynamic data display, state management, and creating intuitive, user-centric interfaces."
+        "- Mastered full-stack development techniques, including crafting interactive frontends with React, handling complex user inputs, and establishing robust backend connections.",
+        "- Completed a comprehensive Capstone Project, showcasing skills in dynamic data display, state management, and creating intuitive, user-centric interfaces."
       ],
-      skills: ["React.js", "Html", "Css", "Node.js", "APIs", "Databases" ]
+      skills: ["React.js", "Html", "Css", "Node.js", "APIs", "Databases", "Vite" ]
     },
     {
       id: "bloomberg",
       company: "Bloomberg",
-      title: "Mentee",
+      title: "Data Analyst Program",
       dates: "October 2023 - January 2024",
       location: "Remote",
       description: [
-        "Enhanced my understanding of data analysis and career development by meeting bi-weekly with a Bloomberg Data Analyst, resulting in improved interview performance and career insight.",
-        "Acquired practical interview skills and career guidance by engaging in mentoring sessions, leading to enhanced readiness for technical interviews and job market navigation."
+        "- Selected for a competitive 10-week mentoring program, chosen among numerous applicants to meet bi-weekly with a Bloomberg Data Analyst, enhancing my data analysis capabilities and career insight",
+        "- Improved MSSQL skills through hands-on practice with diverse public datasets, leading to a 30% increase in query efficiency and data processing speed."
       ],
       skills: ["Data Analysis", "Career Development"]
     },
     {
       id: "google",
       company: "Google",
-      title: "Software Engineer Mentee",
+      title: "Software Engineer Program (G-SWEP)",
       dates: "February 2023 - May 2023",
       location: "Remote",
       description: [
-        "Developed critical software engineering skills by meeting weekly with a Google engineer for 10 weeks, resulting in a deeper understanding of industry practices and problem-solving techniques.",
-        "Enhanced my technical and interview proficiency by completing 20 take-home assignments and training on technical interview questions, leading to improved performance in technical interviews."
+        "- Selected as 1 of 80 participants from over 350+ applicants for a 10-week intensive technical mentoring program.",
+        "- Enhanced technical problem-solving skills in Python and Java, data structures and algorithms, achieving an improvement in interview readiness and career clarity through weekly challenges, workshops, and mentorship"
       ],
-      skills: ["Java", "Data Structures" ]
+      skills: ["Java", "Python", "Data Structures" ]
     },
     {
       id: "queenscollege",
@@ -59,8 +59,8 @@ const Experience = () => {
       dates: "January 2023 - June 2023",
       location: "Queens, NY",
       description: [
-        "Provided academic assistance to over 45 students in Discrete Math and Algorithmic Problem Solving, leading to improved student performance and understanding.",
-        "Facilitated effective learning by conducting 4 30-minute tutoring sessions 4 days a week and directing students to additional resources, resulting in enhanced academic success and resource utilization."
+        "- Provided academic assistance to over 45+ students in Discrete Math and Algorithmic Problem Solving, leading to improved student performance and understanding",
+        "- Facilitated effective learning by conducting 4 30-minute tutoring sessions 4 days a week and directing students to additional resources, achieving 75% improvement in academic success and resource utilization."
       ],
       skills: ["C++", "Java", "Html", "Css"]
     }

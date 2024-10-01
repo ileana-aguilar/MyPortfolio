@@ -7,6 +7,7 @@ import JdbcImg from '../assets/jdbc.png';
 import ContactBookImg from '../assets/contackbook.png';
 import FlashcardsImg from '../assets/flashcards.png';
 import QuizinImg from '../assets/quizin.png';
+import PantryAppImg from '../assets/pantryapp.png';
 
 const Work = () => {
 
@@ -27,8 +28,15 @@ const Work = () => {
       githuburl: "https://github.com/ileana-aguilar/flashcard-saas",
       websiteurl: "https://quizin1.vercel.app"
     },
+    {
+      name: "Pantry App", 
+      description: "Pantry App is an AI-powered recipe suggestion platform that helps users manage their pantry items and generate recipes based on available ingredients. The app utilizes the OpenAI API and GPT Vision API to analyze pantry contents and provide custom recipe suggestions.",
+      techstack: ["React.js", "Node.js", "Next.js", "Firebase API", "Open AI API", "Google Analytics", "GPT Vision API"],
+      image: PantryAppImg,
+      githuburl: "https://github.com/ileana-aguilar/pantryapp",
+    },
     { 
-      name: "SQL and Java Integration Project",
+      name: "ERD-Based Academic Management Application",
       description: "A Java program that integrates SQL and Java to manage and visualize academic scheduling data. It involves designing a database, implementing SQL procedures, and developing a Java application to execute these procedures and display the results using Java Swing's JTable.",  
       techstack: ["Java", "Microsoft SQL Server", "JDBC", "Docker", "Azure Data Studio"],
       image: JdbcImg,
